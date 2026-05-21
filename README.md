@@ -43,7 +43,9 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 ![SCHEMATICS](Images/schematics.png)
 
 ### Mechanical Integration
-![Fusion 360 Assembly](Images/image_e5c8b6.jpg)
+![Fusion 360 Assembly](Images/AeroZero.png)
+![Fusion 360 Assembly](Images/AeroZero_render.png)
+![Fusion 360 Assembly](Images/aerozero_view.png)
 
 *(More PCB Routing and Schematic images will be added soon)*
 
