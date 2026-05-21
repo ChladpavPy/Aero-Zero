@@ -31,6 +31,17 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 
 ![PCB 3D Bottom](Images/Aero-Zero3.png)
 
+### PCB 
+
+![PCB](Images/pcb_f.png)
+![PCB](Images/pcb_b.png)
+![PCB](Images/pcb_in1.png)
+![PCB](Images/pcb_in2.png)
+
+### Schematics
+
+![SCHEMATICS](Images/schematics.png)
+
 ### Mechanical Integration
 ![Fusion 360 Assembly](Images/image_e5c8b6.jpg)
 
