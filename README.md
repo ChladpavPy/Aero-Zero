@@ -12,9 +12,10 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 
 ## Project Features
 
-* **Microcontroller:** STM32F407 (100-pin, 32-bit ARM Cortex-M4)
+* **Microcontroller:** STM32F405 (100-pin, 32-bit ARM Cortex-M4)
 * **Stackup:** 4-Layer PCB (Signal / GND / GND+Power / Signal) for internal routing and better EMI shielding against switching inductors
-* **IMU (Gyro):** Bosch BMI270 connected via dedicated hardware SPI1 bus for maximum signal integrity
+* **IMU (Gyro):** TDK InvenSense ICM-42688-P connected via dedicated hardware SPI1 bus for high-speed kinematics
+* **Barometer:** Goertek SPL06-007 on-board sensor for accurate altitude telemetry
 * **Power:** VBAT main input with robust 5V switching regulator (TPS54302) and isolated 3.3V sensor rails
 * **Connectivity:** USB-C for main communication with USBLC6 ESD protection, native Raspberry Pi UART interface
 * **Digital Video:** Dedicated Walksnail/Caddx VTX JST-SH port (Analog OSD intentionally removed to save space)
@@ -53,9 +54,10 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 
 | Component | Qty | Purpose / Description | Price (USD) | Link / Distributor |
 | :--- | :---: | :--- | :--- | :--- |
-| **Custom PCBA (Aero-Zero)** | 2 | Custom designed 4-layer STM32 flight controller board. Fully assembled via JLCPCB SMT. | $211.14 | JLCPCB |
-| **Walksnail Avatar HD Pro Kit** | 1 | Digital HD Video Transmitter (VTX) and low-light camera system. (Dual Antenna, 32GB) | $157.88 | [Banggood](https://m.banggood.com/cs/Walksnail-Avatar-HD-Pro-Kit-Dual-Antennas-Version-5_8GHz-Digital-System-FPV-Transmitter-32GB-With-1-or-1_8-Inch1080P-160FOV-Camera-for-RC-Drone-p-2002088.html) |
-| **GPS Module FLYWOO GOKU GM10 Mini V3** | 1 | Provides high-precision positioning data using the M10 chip for autonomous navigation, position hold, and return-to-home safety features. | $27.37 | [Aliexpress](https://a.aliexpress.com/_EJENktu) |
+| **Custom PCBA (Aero-Zero)** | 2 | Custom designed 4-layer STM32 flight controller board. Fully assembled via JLCPCB SMT. | $131.50 | JLCPCB |
+| **GEPRC GEP-M1025-DQ GPS** | 1 | High-precision positioning data (u-blox M10) with integrated QMC5883L compass and backup DPS310 barometer. | $19.80 | [Banggood](https://www.banggood.com/cs/GEPRC-GEP-M1025-Series-M10-Chip-GPS-Module-for-RC-Drone-FPV-Racing-Helicopter-Quadcopter-RC-Airplane-Car-p-2000868.html?cur_warehouse=CN&ID=6324596&rmmds=search) |
 | **SpeedyBee BLS 60A 30x30 4-in-1 ESC** | 1 | Electronic Speed Controller (4-in-1) for driving the primary flight motors | $44.00 | [AliExpress](https://www.aliexpress.com/item/1005010400734832.html) |
 | **EMAX ECO II 2207 1700KV Brushless Motor** | 4 | Primary propulsion system providing lift and flight dynamics for the drone chassis | $59.00 | [AliExpress](https://www.aliexpress.com/item/1005001706267138.html) |
 | **Raspberry Pi Zero 2 W** | 1 | Secondary AI and computer vision processing unit for autonomous flight capabilities | $20.17 | [RPiShop (Czech Republic)](https://rpishop.cz/raspberry-pi-zero/4311-raspberry-pi-zero-2-w.html) |
+| **BETAFPV Nano 2.4GHz ELRS** | 1 | 2.4GHz ExpressLRS receiver with T-Type antenna for reliable, low-latency radio control link. | $9.07 | [Aliexpress](https://a.aliexpress.com/_EHLASWw) |
+| **LCSC Discrete Components** | 1 | Bottom-side passive components (SD slot, buzzer, flyback diode, resistors/capacitors) for manual assembly. | $15.65 | lcsc.com |
