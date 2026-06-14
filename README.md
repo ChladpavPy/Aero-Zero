@@ -61,4 +61,4 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 | **EMAX ECO II 2207 1700KV Brushless Motor** | 4 | Primary propulsion system providing lift and flight dynamics for the drone chassis | $59.00 | [AliExpress](https://www.aliexpress.com/item/1005001706267138.html) |
 | **Raspberry Pi Zero 2 W** | 1 | Secondary AI and computer vision processing unit for autonomous flight capabilities | $20.17 | [RPiShop (Czech Republic)](https://rpishop.cz/raspberry-pi-zero/4311-raspberry-pi-zero-2-w.html) |
 | **BETAFPV Nano 2.4GHz ELRS** | 1 | 2.4GHz ExpressLRS receiver with T-Type antenna for reliable, low-latency radio control link. | $9.07 | [Aliexpress](https://a.aliexpress.com/_EHLASWw) |
-| **LCSC Discrete Components** | 1 | Bottom-side passive components (SD slot, buzzer, flyback diode, resistors/capacitors) for manual assembly. | $15.65 | lcsc.com |
+| **LCSC Discrete Components** | 1 | Bottom-side passive components (SD slot, buzzer, flyback diode, resistors/capacitors) for manual assembly. | $16.21 | lcsc.com |
