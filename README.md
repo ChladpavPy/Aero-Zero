@@ -21,6 +21,7 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 * **Digital Video:** Dedicated Walksnail/Caddx VTX JST-SH port (Analog OSD intentionally removed to save space)
 * **Storage:** Integrated MicroSD slot (Hirose Push-Pull) routed via high-speed 4-bit SDIO bus for blackbox logging
 * **Hardware Protections:** Strict 1:1 hardware pin layout for GPS and LiDAR connectors to prevent accidental voltage shorts during assembly
+* **Radio Link:** Dedicated UART port for 2.4GHz ExpressLRS nano receiver.
 
 
 ## Gallery
