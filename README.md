@@ -23,6 +23,9 @@ A custom mainboard designed to replace standard generic flight controllers. Buil
 * **Hardware Protections:** Strict 1:1 hardware pin layout for GPS and LiDAR connectors to prevent accidental voltage shorts during assembly
 * **Radio Link:** Dedicated UART port for 2.4GHz ExpressLRS nano receiver.
 
+## Firmware
+
+Since this board is built around a custom STM32F405 microcontroller, it runs on the open-source [Betaflight](https://github.com/betaflight/betaflight) firmware. Instead of writing custom flight control loops from scratch, the firmware setup uses a custom target configuration. You can find the complete pin-mapping and resource file (`AeroZero_BF_Config.txt`) ready in the `Firmware` folder.
 
 ## Gallery
 
