@@ -47,10 +47,18 @@ Since this board is built around a custom STM32F405 microcontroller, it runs on 
 
 ![SCHEMATICS](Images/Schematics.png)
 
-### Mechanical Integration
+### Mechanical Integration MARK4
 ![Fusion 360 Assembly](Images/AeroZero.png)
 ![Fusion 360 Assembly](Images/AeroZero_render1.png)
 ![Fusion 360 Assembly](Images/aerozero_view.png)
+
+### Mechanical Integration CUSTOM AERO-ZERO CAD
+![Fusion 360 Assembly](Images/cad3.png)
+![Fusion 360 Assembly](Images/cad1.png)
+![Fusion 360 Assembly](Images/cad6.png)
+![Fusion 360 Assembly](Images/cad4.png)
+![Fusion 360 Assembly](Images/cad5.png)
+![Fusion 360 Assembly](Images/cad7.png)
 
 ---
 
